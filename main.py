@@ -5,7 +5,7 @@ root = Tk()
 
 root['bg'] = '#fafafa'
 root.title('Game')
-root.geometry('510x380')
+root.geometry('480x380')
 root.resizable(width=False, height=False)
 
 canvas = Canvas(root, height=510, width=400)
